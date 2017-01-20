@@ -11,6 +11,8 @@ public class HasilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasil);
 
+        setTitle("Hasil");
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
